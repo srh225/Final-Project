@@ -25,7 +25,6 @@ module anode_gen(
     input reset,
     output reg [3:0] anode = 4'b1000
 );
-
     parameter g_s = 5;
     parameter g_t = 4; 
     reg [g_s-1:0] g_count = 0;
@@ -56,5 +55,4 @@ module anode_gen(
         end
     end
     end
-
 endmodule
